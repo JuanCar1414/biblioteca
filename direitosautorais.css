@@ -1,0 +1,107 @@
+
+* {
+    margin: 0;
+    font-family: 'Zen Old Mincho', serif;
+
+}
+body {
+    background-color: #fff8cf;
+}
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: #9BD8D4;
+    display:flex;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+ul {
+    display: flex;
+    gap: 50px;
+    color: black;
+}
+li {
+    display:inline-block;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.links {
+    display: grid;
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+#logotipo {
+    grid-column: 1;
+}
+.usuario {
+    display: flex;
+    grid-column: 3;
+    justify-content: end;
+    text-emphasis-color: black;
+}
+
+main {
+    position: relative;
+    display: flex;
+    
+}
+
+.links{
+    display: flex;
+}
+.categorias {
+    flex-direction: column;
+    display: flex;
+    align-content: space-between;
+}
+#texto {
+    font-size: 25px;
+    position: absolute;
+    left: 150px;
+    top: 300px;
+}
+#titulo {
+    font-size: 70px;
+    position: absolute;
+    top: 10px;
+    left: 500px;
+}
+.linhaAmarela {
+    height: 55px;
+    width: 450px;
+    background-color: #eaef5170;   
+    position: absolute;
+    top: 170px;
+    left: 300px;
+    border-radius: 10%;
+}
+.titulo {
+    font-size: 55px;
+    position: absolute;
+    top: 150px;
+    left: 305px;
+}
+#logodocorpo {
+    height: 220px;
+    position: absolute;
+    left: 1050px;
+    top: 215px;
+}
+#miolo {
+    display: flex;
+    flex-direction: column;
+
+    
+}
+#linhaDoTitulo {
+    height: 15px;
+    width: 350px;
+    background-color: #62b29f;   
+    position: absolute;
+    left: 500px;
+    top: 10px;
+    margin-top: 55px;
+}

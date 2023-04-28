@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Tilt neon;
+}
+
+body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #FFF8CF;
+}
+
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: #9BD8D4;
+    display:flex;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+ul {
+    display: flex;
+    gap: 50px;
+    color: black;
+}
+li {
+    display:inline-block;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.links {
+    display: grid;
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+#logotipo {
+    grid-column: 1;
+}
+.usuario {
+    display: flex;
+    grid-column: 3;
+    justify-content: end;
+    text-emphasis-color: black;
+}
+.listalinks li{
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 15px;
+    color: black;
+}
+
+.listalinks li:hover{
+    background-color: rgb(85, 156, 156);
+}
+
+
+.login{
+    width: 8%;
+    height: 100%;
+    justify-content: flex-end;
+    background-color: white;
+}
+
+
+.serviços{
+    border-radius: 50px;
+    background-color: #FBF19B;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    width: 400px;
+    height: 30px;
+    margin-top: 100px;
+    margin-left: 350px;
+    text-transform: uppercase;
+    font-size: medium;
+
+}
+
+.textinho{
+    text-transform: uppercase;
+    display: flex;
+    margin-top: 250px;
+    text-align: center;
+    
+}
+
+main{
+    display: flex;
+}
+
+.titulo{
+    justify-content: center;
+    width: 900px;
+    height: 90px;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    margin-left: 100px;
+    font-family: Zen Old Mincho;
+    font-size: larger;
+    
+}
+
+.logo{
+    display: flex;
+    margin-left: 200px;
+}
+
